@@ -1,5 +1,6 @@
 const { setupDb } = require('../../workshop-scripts/testSetupTask.js')
 
 module.exports = (on, config) => {
-  on('task', { setupDb })
+  on('task', { setupDb }) 
 }
+//import '@bahmutov/cy-api'
